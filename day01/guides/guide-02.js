@@ -10,3 +10,9 @@
 'use strict';
 
 // TODO: écris ta solution ici.
+
+let data = "123";
+console.log("le type de \"123\" est : ", typeof data);
+
+let d = Number(data);
+console.log("le type de d est : ", typeof d);

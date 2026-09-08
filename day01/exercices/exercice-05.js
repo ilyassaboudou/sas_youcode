@@ -18,3 +18,12 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+
+let nombre = 15;
+
+if (nombre % 2 == 0) {
+    console.log("pair");
+}else {
+    console.log("impair")
+}

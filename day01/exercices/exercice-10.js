@@ -20,3 +20,18 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+let age = 12;
+let res;
+
+if (age < 12) {
+    res = "Enfant";
+}else if (age <= 17) {
+    res =  "Adolescent";
+}else if (age <= 64) {
+    res = "Adulte";
+}else {
+    res = "Senior"; 
+}
+
+console.log(res);

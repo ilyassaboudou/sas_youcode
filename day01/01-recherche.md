@@ -25,7 +25,9 @@
 
 > À compléter avec mes propres mots.
 
----
+    - let : modifiable, accessible dans le scoop;
+    - const : n'est pas modifiable;
+    - var : modifiable et asccessible dans la fonction;
 
 ### Question 02
 
@@ -37,7 +39,14 @@
 
 > À compléter avec mes propres mots.
 
----
+    - boolean
+    - string
+    - number
+    - bigInt
+    - null
+    - undefind
+    - symbol
+--- 
 
 ### Question 03
 
@@ -49,7 +58,8 @@
 
 > À compléter avec mes propres mots.
 
----
+    - null represente l'absence d'un objet/valeur
+    - vieux bug de conception, il est garder pour ne pas casser le code existant
 
 ### Question 04
 
@@ -61,7 +71,9 @@
 
 > À compléter avec mes propres mots.
 
----
+    - "==" comparer la valeur
+    - "===" comparer la valeur et le type
+    - 
 
 ### Question 05
 
@@ -73,7 +85,7 @@
 
 > À compléter avec mes propres mots.
 
----
+    - error, car const n'est pas modifiable
 
 ### Question 06
 
@@ -85,7 +97,8 @@
 
 > À compléter avec mes propres mots.
 
----
+    - 5 + "5" va donner "55", cast 5 au String, puis faire la concatination,
+    - le phénomène s'appelle coercion
 
 ### Question 07
 
@@ -97,7 +110,10 @@
 
 > À compléter avec mes propres mots.
 
----
+    - le reste de devision
+
+    const n = 10;
+    if ( n%2 == 0 ) { // pair } else { // impair } 
 
 ### Question 08
 
@@ -109,7 +125,8 @@
 
 > À compléter avec mes propres mots.
 
----
+    - && tous les condition faut être varai ;
+    - ||  au moins une seule condition est vrai
 
 ### Question 09
 
@@ -121,7 +138,7 @@
 
 > À compléter avec mes propres mots.
 
----
+    - oui peut être prèfèrable dans le cas d'une condition simple, si non if else
 
 ### Question 10
 
@@ -132,7 +149,7 @@
 **Ma réponse :**
 
 > À compléter avec mes propres mots.
-
+    - les valeurs qui sont considèré comme false dans la condition, example ("", false, 0, null ...)
 
 ## ✅ Validation de la recherche
 

@@ -10,3 +10,12 @@
 'use strict';
 
 // TODO: écris ta solution ici.
+
+let a = 5;
+let b = 10;
+
+console.log("a: " ,a, "b: ",b);
+
+[a, b] = [b, a];
+
+console.log("a: " ,a, "b: ",b);
