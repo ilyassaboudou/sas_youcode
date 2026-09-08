@@ -19,3 +19,14 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+let hasAccount = false;
+let isGuest = true;
+let cartValue = 150;
+let isBanned = false;
+
+if (!isBanned && (hasAccount || cartValue > 100)) {
+    console.log("Commande validée");
+}else {
+    console.log("Commande n'est pas validée");
+}

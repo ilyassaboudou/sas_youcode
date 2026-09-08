@@ -18,3 +18,31 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+let nombre1 = 10;
+let nombre2 = 5;
+let res;
+let operateur = "*"
+
+switch (operateur) {
+    case "*":
+        res = nombre1 * nombre2;
+        break;
+    case "/":
+        if (nombre2 == 0) {
+            res = "vous pouvez pas deviser par 0";
+        }else {
+            res = nombre1 / nombre2;
+        }
+        break;
+    case "+":
+        res = nombre1 + nombre2;
+        break;
+    case "-" :
+        res = nombre1 - nombre2;
+        break;
+    default:
+        res = "operateur n'est pas valide";
+}
+
+console.log(res)

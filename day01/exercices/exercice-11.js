@@ -18,3 +18,24 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+let buy = 500;
+let delivry = false;
+
+if (buy > 200) {
+    delivry = true;
+}
+
+if (buy >= 500) {
+    buy -= (buy * 10 / 100);
+}
+
+let display = "Coût final:  " + buy + "MAD, Livraison: ";
+
+if (delivry) {
+    display += "Gratuite";
+}else {
+    display += "n'est pas Gratuite";
+}
+
+console.log(display);
