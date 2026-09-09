@@ -10,3 +10,7 @@
 'use strict';
 
 // TODO: écris ta solution ici.
+
+for (let i=0; i<3; i++) {
+    console.log("*".repeat(3));
+}

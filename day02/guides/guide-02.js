@@ -10,3 +10,13 @@
 'use strict';
 
 // TODO: écris ta solution ici.
+
+let  N = 100;
+let i = 0;
+
+while (N >= 1) {
+    N /= 2;
+    i += 1;
+}
+
+console.log(i);
