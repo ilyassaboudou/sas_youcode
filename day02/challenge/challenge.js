@@ -22,3 +22,21 @@
 
 // Découpe d'abord le problème en petites étapes.
 // TODO: écris ta solution ici.
+
+
+let codeSecret = 739;
+let count = 0; 
+
+loop:
+    for (let i=0; i<=9; i++) {
+        for (let j=0; j<=9; j++) {
+            for (let k=0; k<=9; k++) {
+                count++;
+                if (i*100 + j*10 + k == codeSecret) {
+                    break loop;
+                } 
+            }
+        }
+    }
+
+console.log(count);
