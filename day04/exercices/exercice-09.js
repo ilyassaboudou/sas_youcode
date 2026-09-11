@@ -15,3 +15,18 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+
+function filter(a) {
+        let b = [];
+        
+        for (let i=0; i< a.length; i++) {
+        
+            if (a[i] % 2 === 0) {
+                b.push(a[i]);
+            }
+        }
+    return b;
+}
+
+console.log(filter([1, 2, 3, 4, 5, 6]));

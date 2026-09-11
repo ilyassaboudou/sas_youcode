@@ -15,3 +15,20 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+let a = [1, 3, 5];
+let b = [2, 4, 6];
+let tab = [...a, ...b];
+
+
+// insertion sort
+for (let i = 1; i < tab.length; i++) {
+    let j = i -1;
+    
+    while (j > 0 && tab[j] > tab[j + 1]) {
+        if (tab[j] > tab[j + 1]) {
+            [tab[j], tab[j + 1]] = [tab[j + 1], tab[j]];
+        }
+    }
+}
+console.log(tab);
