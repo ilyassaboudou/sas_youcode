@@ -25,7 +25,7 @@
 
 > À compléter avec mes propres mots.
 
----
+    - index 0
 
 ### Question 02
 
@@ -37,7 +37,8 @@
 
 > À compléter avec mes propres mots.
 
----
+    - push() ajoute à la fin de la liste
+    - unshift() ajoute au debut
 
 ### Question 03
 
@@ -49,7 +50,8 @@
 
 > À compléter avec mes propres mots.
 
----
+    - pop() enleve le dernier element
+    - shift() enleve le premier elemenet 
 
 ### Question 04
 
@@ -61,7 +63,7 @@
 
 > À compléter avec mes propres mots.
 
----
+    - 0
 
 ### Question 05
 
@@ -73,7 +75,8 @@
 
 > À compléter avec mes propres mots.
 
----
+    - for in , donne les index
+    - for of , donne les valeurs
 
 ### Question 06
 
@@ -85,7 +88,7 @@
 
 > À compléter avec mes propres mots.
 
----
+    - Array.isArray(monarray)
 
 ### Question 07
 
@@ -97,7 +100,7 @@
 
 > À compléter avec mes propres mots.
 
----
+    - concat()
 
 ### Question 08
 
@@ -109,7 +112,8 @@
 
 > À compléter avec mes propres mots.
 
----
+    slice(start, end) prend une partie entre deux indexes
+    splice(startIndex, nomnre des element à supprimer, elment à ajouter)
 
 ### Question 09
 
@@ -121,7 +125,7 @@
 
 > À compléter avec mes propres mots.
 
----
+    - par reference
 
 ### Question 10
 
@@ -130,6 +134,7 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
+    - oui, ça depend l'utulisation , mais en generale c'est pas good pracice
 
 > À compléter avec mes propres mots.
 

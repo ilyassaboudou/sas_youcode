@@ -20,3 +20,33 @@
 
 // Découpe d'abord le problème en petites étapes.
 // TODO: écris ta solution ici.
+
+let panier = [101, 105, 101, 102]
+
+function ajouterAuPanier(id) {
+    panier.push(id);
+}
+
+function retirerDuPanier(id) {
+    panier = panier.filter(el => el != id)
+}
+
+function afficherQuantites() {
+    let mp = new Map()
+
+    for (let el of panier) {
+        if (mp.has(el))
+            mp.set(el, mp.get(el) + 1)
+        else 
+            mp.set(el, 1)
+    }
+
+    return mp
+}
+
+retirerDuPanier(101)
+let mp =  afficherQuantites()
+
+for (let [key, val] of mp) {
+    console.log(`article ${key}: ${val}`)
+}

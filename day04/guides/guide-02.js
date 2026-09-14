@@ -10,3 +10,8 @@
 'use strict';
 
 // TODO: écris ta solution ici.
+
+
+let  notes = [12, 15, 8, 19];
+
+console.log(notes.reduce((acc, e) => acc + e, 0) / notes.length)

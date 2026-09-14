@@ -15,3 +15,21 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+
+function rec(input, res, i, j) {
+    if (input.length < 2) return input;
+    if (i == input.length - 1) return res;
+    if (j == input.length) return rec(input, res, i+1, i+2)
+    
+    if (i != j) {
+        res.push(`${input[i]} ${input[j]}`);
+    }
+
+    return rec(input, res, i, j+1);
+
+}
+
+let a = rec(["Rouge", "Vert", "Bleu"], [], 0, 1)
+
+console.log(a)
